@@ -1,0 +1,3 @@
+<!--Pages/elec/index.wxml-->
+<text>Pages/elec/index.wxml</text>
+<view>{{situation}}</view>

@@ -1,0 +1,15 @@
+<view>
+
+<text class="c;font-face">要断电哦</text>
+<text class="iconfont icon-light1" ></text>
+</view>
+<button bindtap='gotoPage1' class="iconfont icon-light;weui-btn">查看是否断电</button>
+<button bindtap='gotoPage2' class="iconfont icon-light1;weui-btn" type="primary" >查看实时光照</button>
+<button open-type="getPhoneNumber" class="iconfont icon-shouxinxiangqing-shoujihaoma;weui-btn">用户手机登录</button>
+<button bindtap='gotoPage3' class="iconfont icon-zhishi;weui-btn" type="primary">用电安全常识</button>
+<button open-type="feedback" class="iconfont icon-feedback;weui-btn" >使用建议反馈</button>
+<view class="imagesize">
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607504729773&di=4963a5775f4591e026a45672f554abb7&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F03%2F90%2F81%2F5557de39ec406c5.jpg" mode="aspectFill"></image>
+</view>
+
+

@@ -1,0 +1,7 @@
+/* pages/elec/elec.wxss */
+Page{
+  background-color:rgb(150, 236, 201);
+}
+view{
+  color:var(--themeColor);
+}

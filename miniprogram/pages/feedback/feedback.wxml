@@ -1,0 +1,19 @@
+<!--pages/feedback/feedback.wxml-->
+<view class="opinion_wrap">
+    <view class="wrap">
+        <form bindsubmit="formSubmit">
+            <view class="contant_wrap">
+                <view class="contant">
+                    <textarea name="opinion"   value="{{contact}}" auto-height placeholder-class="placeholder" placeholder="谢谢大家宝贵的意见~~我们将会不断改进哒" />
+                </view>
+            </view>
+            <view class="phone">
+                <input name="contant" value="{{contant}}" placeholder-class="placeholder" placeholder="可以有小姐姐/小哥哥联系方式嘛~方便回复您的反馈" />
+            </view>
+            <button  bindtap="toastShow" formType="submit" hover-class="none" loading="{{loading}}">提交</button>
+            <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+                  提交成功！
+</toast>
+        </form>
+    </view>
+</view>

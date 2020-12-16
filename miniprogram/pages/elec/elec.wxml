@@ -1,0 +1,12 @@
+<!--pages/elec/elec.wxml-->
+<text class="iconfont icon-light"></text>
+<text class="center1">当前断电情况为：</text>
+<text class="center">{{situationnow}}</text>
+
+<view class="imagesize"wx:if="{{light<700}}">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607974522870&di=f6a8a14acf06f3e2615f844bc057bb98&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Ftech%2Fcrawl%2F20171126%2FfdyM-fypathz6088587.jpg" mode="aspectFill"></image>
+</view>
+<view class="imagesize"wx:elif="{{light > 700}}">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607974904671&di=2ed17d2cb7e027b6963caac13966c387&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D0770ce6f6cd9f2d3201124e799ed8a53%2F80279b504fc2d562f9b12163e91190ef77c66ca6.jpg" mode="aspectFill"></image>
+</view>
+

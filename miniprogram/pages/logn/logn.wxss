@@ -1,0 +1,16 @@
+/* pages/logn/logn.wxss */
+.won{
+  width: 240rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: white;
+  display:block;
+  margin:0 auto;
+  margin-top: 80rpx;
+  background-color: rgb(85, 161, 108);
+  border-radius: 6rpx;
+  font-size: 32rpx;
+}
+Page{
+  background-color:rgb(150, 236, 201);
+}

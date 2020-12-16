@@ -1,0 +1,11 @@
+/* pages/light/light.wxss */
+Page{
+  background-color:rgb(150, 236, 201);
+}
+view{
+  color:var(--themeColor);
+}
+.bt1{
+  border-width: thick ;
+  font-size: 32rpx;
+  }

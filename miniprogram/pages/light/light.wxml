@@ -1,0 +1,6 @@
+<!--pages/light/light.wxml <button bindtap='init' >查看<btton></btton>-->
+<!--<button id="bt1" bindtap="one">查看现在的光照值</button>-->
+<view class="center;iconfont icon-light1">现在的黑暗强度值是 {{light}}</view>
+<view class="imagesize">
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607971821322&di=8d284507b2d9530b3d80357df3fa4466&imgtype=0&src=http%3A%2F%2Fimg01.jituwang.com%2F170525%2F256916-1F52500562934.jpg" mode="aspectFill"></image>
+</view>

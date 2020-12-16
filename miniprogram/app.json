@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/elec/elec",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/light/light",
+    "pages/logn/logn"
+   
+  ],
+  "window": {
+    "backgroundColor": "#C6E0FA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C6E0FA",
+    "navigationBarTitleText": "断电提醒神器",
+    "navigationBarTextStyle": "black",
+   "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
